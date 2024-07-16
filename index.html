@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <link rel="icon" href="logo.png" type="image/png">
+
+    <div class="container">
+        <div class="left-panel">
+            <div class="search-bar">
+                <div class="profile">
+                    <img src="profile1.png" alt="profile" class="profile-pic">
+                    <!-- Sliding Window Trigger -->
+<!-- Sliding Window Trigger -->
+<div class="profile1-container">
+    <img src="group.png" alt="communities" class="profile1" onclick="openSlidingWindow()">
+</div>
+
+<!-- Sliding Window Content -->
+<div id="slidingWindow" class="sliding-window">
+    <div class="sliding-window-header">
+        <img src="arrow.png" alt="back" class="profile6" onclick="closeSlidingWindow()">
+        <p>Communities</p>
+    </div>
+    <div class="sliding-window-content">
+        <ul>
+            <li class="community"><img src="group1.png" alt="New community" class="group-icon2"> New community</li>
+        </ul>
+    </div>
+    <div class="sliding-window-content">
+        <ul>
+            <li><img src="group2.png" alt="The Technocrats (Startup)" class="group-icon"> Minecraft (Youtube)</li>
+            <li><img src="group3.png" alt="Announcements" class="group-icon2"> Announcements</li>
+            <li><img src="group4.png" alt="Minecraft" class="group-icon2">Minecart</li>
+            <li><img src="group5.png" alt="fossils foudation" class="group-icon">Fossils Foundtion</li>
+            <li><img src="placeholder.jpg" alt="fam" class="group-icon"> family</li>
+            <li><img src="group6.png" alt="CSE 4th Sem Unofficial" class="group-icon">NB Clash of Clans</li>
+            <br>
+            <p>View All</p>
+        </ul>
+    </div>
+    <div class="sliding-window-content">
+        <ul>
+            <li><img src="group2.png" alt="The Technocrats (Startup)" class="group-icon"> Minecraft (Youtube)</li>
+            <li><img src="group3.png" alt="Announcements" class="group-icon2"> Announcements</li>
+            <li><img src="group4.png" alt="Minecraft" class="group-icon2">Minecart</li>
+            <li><img src="group5.png" alt="fossils foudation" class="group-icon">Fossils Foundtion</li>
+            <li><img src="placeholder.jpg" alt="fam" class="group-icon"> family</li>
+            <li><img src="group6.png" alt="CSE 4th Sem Unofficial" class="group-icon">NB Clash of Clans</li>
+            <br>
+            <p>View All</p>
+        </ul>
+    </div>
+</div>
+
+
+                    <!-- <img src="status.png" alt="status" class="profile2" onclick="openSlidingWindow()"> -->
+                     <!-- Sliding Window Trigger -->
+<div class="profile1-container">
+    <img src="status.png" alt="status" class="profile2" onclick="openSlidingWindow1()">
+</div>
+
+<!-- Sliding Window 1 (Status) Content -->
+<div id="slidingWindow1" class="sliding-window1">
+    <div class="sliding-window-header1">
+        <img src="arrow.png" alt="back" class="profile6" onclick="closeSlidingWindow1()">
+        <p>Status</p>
+        <img src="plus.png" class="plus1" alt="plus">
+        <img src="menu.png" class="profile41" alt="menu" onclick="toggleDropdown()">
+    </div>
+    <div class="sliding-window-content1">
+        <ul>
+            <li class="status"><img src="img (5).png" alt="New community" class="group-icon11">
+                My Status 
+                <h5 class="statusp">
+                    Today at 2:20 am
+                </h5>
+            </li>
+            <p>VIEWED</p>
+            <li><img src="img (10).png" alt="The Technocrats (Startup)" class="group-icon1"> Minecraft (Youtube)</li>
+            <li><img src="img (6).png" alt="Announcements" class="group-icon21"> Announcements</li>
+            <li><img src="img (8).png" alt="Minecraft" class="group-icon21">Minecart</li>
+            <li><img src="img (9).png" alt="fossils foudation" class="group-icon1">Fossils Foundtion</li>
+            <li><img src="img (12).png" alt="fam" class="group-icon1"> family</li>
+            <li><img src="img (7).png" alt="CSE 4th Sem Unofficial" class="group-icon1">NB Clash of Clans</li>
+            <br>
+            <p>Muted</p>
+        </ul>
+    </div>
+    <div class="sliding-window-content1">
+        <ul>
+            <li><img src="img (3).png" alt="The Technocrats (Startup)" class="group-icon11"> Minecraft (Youtube)</li>
+            <li><img src="img (1).png" alt="Announcements" class="group-icon12"> Announcements</li>
+            <li><img src="img (2).png" alt="Minecraft" class="group-icon12">Minecart</li>
+            <li><img src="group5.png" alt="fossils foudation" class="group-icon11">Fossils Foundtion</li>
+            <li><img src="placeholder.jpg" alt="fam" class="group-icon11"> family</li>
+            <li><img src="group6.png" alt="CSE 4th Sem Unofficial" class="group-icon11">NB Clash of Clans</li>
+            <br>
+            <p>View All</p>
+        </ul>
+    </div>
+</div>
+                    <img src="messenger.png" alt="communities" class="profile3">
+                    <img src="chat-bubble.png" alt="communities" class="profile2">
+                    <div class="dropdown">
+                        <img src="menu.png" alt="communities" class="profile4" onclick="toggleDropdown()">
+                        <div id="dropdownMenu" class="dropdown-content">
+                            <a href="#">New group</a>
+                            <a href="#">New community</a>
+                            <a href="#">Starred messages</a>
+                            <a href="#">Select chats</a>
+                            <a href="#">Settings</a>
+                            <a href="#" onclick="showLogoutPopup()">Log out</a>
+                            <a href="https://web.whatsapp.com/">Get WhatsApp for Windows</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <img src="search.png" alt="search" class="search-icon">
+                    <input type="text" placeholder="Search" class="search-input">
+                </div>
+            </div>
+            <div class="chat-filters">
+                <span class="filter active">All</span>
+                <span class="filter">Unread</span>
+                <span class="filter">Groups</span>
+            </div>
+            <div class="chat-list" id="chatList">
+                <!-- Chat items will be dynamically added here -->
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="chat-header" id="chatHeader">
+                <!-- Chat header will be dynamically updated -->
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <!-- Chat messages will be dynamically added here -->
+            </div>
+            <div class="chat-input">
+                <img src="happy.png" alt="emoji" class="emoji">
+                <!-- Plus Dropdown -->
+                <div class="plus-dropdown">
+                    <img src="plus.png" alt="plus" class="plus-icon" onclick="togglePlusDropdown()">
+                    <div id="plusDropdownMenu" class="plus-dropdown-content">
+                        <a href="#"><img src="document.png" alt="Document" class="profile5"> Document</a>
+                        <a href="#" onclick="openFileSelector()"><img src="gallery.png" alt="Photos & videos" class="profile5"> Photos & videos</a>
+                        <a href="#"><img src="camera.png" alt="Camera" class="profile5"> Camera</a>
+                        <a href="#"><img src="profile.png" alt="Contact" class="profile5"> Contact</a>
+                        <a href="#"><img src="poll.png" alt="Poll" class="profile5"> Poll</a>
+                        <a href="#"><img src="stickers.png" alt="New sticker" class="profile5"> New sticker</a>
+                    </div>
+                </div>
+
+                <input type="text" placeholder="Type a message" id="messageInput">
+                <img src="microphone.png" alt="mic" class="mic">
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <input type="file" id="fileInput" accept="image/*,video/*" style="display:none" onchange="handleFileSelect(event)">
+    
+        <div  id="logoutPopup" class="popup">
+            <h2>Log out?</h2>
+            <p>Are you sure you want to log out?</p>
+            <p>You can turn on <a href="#">app lock</a> instead.</p>
+            <div class="buttons1">
+              <button class="cancel" onclick="closeLogoutPopup()">Cancel</button>
+              <button class="logout" onclick="logout()">Log out</button>
+            </div>
+        </div>
+    
+</body>
+</html>
